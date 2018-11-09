@@ -4,6 +4,6 @@
 		<p class="alert alert-{{$msg}}">
 		{{session()->get($msg)}}
 		</p>
-		</div>s
+		</div>
 	@endif
 @endforeach
